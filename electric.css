@@ -21,7 +21,7 @@ body.dark-mode {
   padding: 20px;
 }
 .dark-mode .at{
-  color: #cae8ff;
+  color: #cae8ff; 
 }
 .dm{
 color: #050A30; font-size: 1.7em; 
@@ -234,7 +234,6 @@ button3:active {
 
 
 .button {
-  line-height: 1;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -249,6 +248,8 @@ button3:active {
   overflow: hidden;
   text-overflow: ellipsis;
   transition: background-color .3s;
+  margin-top: 3%;
+  margin-left: 0.5%;
 }
 
 .button__icon-wrapper {
@@ -290,12 +291,9 @@ button3:active {
   transform: translate(0);
 }
 
-
-
-
 footer{
   background-color: #050A30;
-  padding: 20px;
+  padding: 5%;
   text-align: center;
   display: flex;
   }
@@ -314,12 +312,12 @@ footer{
   display: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-right: 100px; margin-left: -200px;
+  margin-left: -10%;
   }
-  h3{
+  h2{
   color: #cae8ff;
   }
-  .dark-mode h3 {
+  .dark-mode h2 {
   color: #050A30;
   }
   .card2 {
@@ -371,7 +369,6 @@ footer{
   transform: scale(0.9);
   transition-duration: 0.3s;
   }
-  
   .socialSvg {
   width: 17px;
   }
@@ -408,7 +405,6 @@ footer{
   cursor: pointer;
   font-size: 16px;
   }
-  
   #scrollToTopBtn:hover {
   background-color: #0056b3;
   }
@@ -460,9 +456,10 @@ footer{
     button2:hover {
     background-color: #25D366;
     }
+  .footer-lists2 h2{
+    font-size: 129%; 
+  }
     
-  
-
 
 @media only screen and (max-width: 650px) {
   .container {
@@ -508,13 +505,7 @@ footer{
     font-size: 20px;
     text-underline-offset: 10px;
   }
-  .button{
-    margin: 1%;display: flex;justify-content: center; width: 55%;
-  }
 
-
-
-  
   footer {
     flex-direction: column;
     text-align: center;
@@ -522,11 +513,4 @@ footer{
   .footer-lists img{
     max-width: 60%;
   }
-  .footer-lists2{
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-  .footer-lists2 h3 {
-    font-size: 15px;
-  }
-}  
+}
