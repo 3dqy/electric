@@ -23,7 +23,7 @@ body.dark-mode {
   padding-right: 10%; padding-left: 10%;
 }
 .dark-mode .at{
-  color: #cae8ff; font-size: 1.8vmax;
+  color: #cae8ff; 
 }
 .dm{
 color: #050A30; font-size: 2vmax; 
@@ -32,7 +32,7 @@ color: #050A30; font-size: 2vmax;
 color: #cae8ff;
 }
 .container h2 {
- color: #050A30; font-family: Amsterdam One; font-size: 1.8vmax; margin-left: -43%;
+ color: #050A30; font-family: Amsterdam One; font-size: 1.8vmax; margin-left: -43%; margin-right: 200px;
 }
 .logo img {
   max-width: 50%;
@@ -124,9 +124,9 @@ button3 {
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 19px;
   transition: all 0.4s ease;
-  margin: 3%;
+  margin: 2.5%;
 }
 .dark-mode button3{
   background-color: #cae8ff;
@@ -327,22 +327,35 @@ footer{
   }
   }
   #scrollToTopBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  }
-  #scrollToTopBtn:hover {
-  background-color: #0056b3;
-  }
-  button2{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      color: #b10e0e;
+      text-shadow: none;
+      cursor: pointer;
+      box-shadow: transparent;
+      border: 1px solid #b10e0e;
+      transition: 0.5s ease;
+      user-select: none;
+    }
+
+    #scrollToTopBtn:hover {
+      color: #ffffff;
+      background: #b10e0e;
+      border: 1px solid #b10e0e;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      box-shadow: 0 0 5px #b10e0e, 0 0 20px #b10e0e, 0 0 50px #b10e0e,
+        0 0 100px #b10e0e;
+   }  button2{
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -400,16 +413,16 @@ footer{
   .container {
     flex-direction: row;
   }
-  .register-signin {
+  /* .register-signin {
     margin-right: -22px;
     padding: 2px 3px;
   }
   .register-signin button {
     margin-left: 7px;
     font-size: 60%;
-}
+} */
   .container h2{
-    font-size: 0.75em; margin-right: 5px;
+    font-size: 0.75em; margin-right: 100px;
   }
   .tnav {
     flex-direction: column;
@@ -445,4 +458,8 @@ footer{
   .footer-lists img{
     max-width: 60%;
   }
+  .footer-lists2{
+    margin-left: 0%;
+  }
+
 }
